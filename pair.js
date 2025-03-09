@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await daenery PairWeb.sendMessage(user_jid, {
               image: {
-                url: "content://media/external/downloads/1000007044",
+                url: "",
               },
               caption: sid,
             });
