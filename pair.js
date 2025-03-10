@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await daenery PairWeb.sendMessage(user_jid, {
               image: {
-                url: "",
+                url: "https://github.com/DILAMD-amn/-Q-/blob/main/2b79e5bc-1ce6-4595-8a81-bada25f559be.jpeg",
               },
               caption: sid,
             });
